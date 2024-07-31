@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/png" sizes="32x32" href="assest/images/favicon-32x32.png">
+  <title>Frontend Mentor | Space tourism website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assest/style.css">
+  <link rel="stylesheet" href="assest/media.css">
+</head>
+
+<body>
+  <div class="bg-destination">
+    <header>
+      <div class="container">
+        <div class="header">
+          <img class="img1" src="assest/images/shared/logo.svg" alt="logo img">
+          <img class="img2" src="assest/images/Rectangle.png" alt="line img">
+          <span tabindex="0" class="span1">
+            <img src="assest/images/shared/icon-hamburger.svg" onclick=" myFirstfunction()" class="ham-img" id="ham-img" alt="hamburger img">
+            <img src="assest/images/shared/icon-close.svg" onclick="mysecondfunction()" class="close-img" id="close-img" alt="close img">
+          </span>
+          <nav class="nav" id="h-menu">
+            <ul class="subheading-3">
+              <li><a href="index.html"><b>00</b>Home</a></li>
+              <li class="active"><a href="destination.html"><b>01</b>Destination</a></li>
+              <li><a href="crew.html"><b>02</b>Crew</a></li>
+              <li><a href="technology.html"><b>03</b>Technology</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main-d">
+      <div class="container">
+        <p class="p1 w-color"><strong>01</strong> pick your destination</p>
+        <div id="destination-content">
+          <!-- Destination data will be dynamically inserted here -->
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="destination.js"></script>
+</body>
+
+</html>
